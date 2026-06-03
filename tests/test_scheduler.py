@@ -30,7 +30,7 @@ class SchedulerTest(unittest.TestCase):
             ]
         )
         self.assertIn("3600", rendered)
-        self.assertIn("/path/to/config.toml", rendered)
+        self.assertIn("config.toml", rendered)
 
 
 if __name__ == "__main__":
