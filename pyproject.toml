@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "todoist-to-obsidian"
+version = "0.1.0"
+description = "A local-first Todoist capture queue bridge for Obsidian Markdown notes."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "TODO" }]
+license = "MIT"
+dependencies = []
+
+[project.scripts]
+todoist-to-obsidian = "todoist_obsidian_bridge.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

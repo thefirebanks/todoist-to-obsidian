@@ -1,0 +1,23 @@
+[todoist]
+project = "obs"
+label = ""
+filter_query = ""
+close_after_import = true
+
+[obsidian]
+vault_path = "/path/to/your/Obsidian Vault"
+default_note = "Inbox.md"
+
+[format]
+heading_time_source = "todoist_created_at"
+heading_format = "human_long"
+include_source = true
+include_labels = true
+
+[state]
+path = "/path/to/local/state.json"
+
+[aliases]
+project = "Projects/project notes.md"
+ideas = "Notes/ideas.md"
+reading = "Notes/reading list.md"
