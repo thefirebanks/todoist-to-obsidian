@@ -11,19 +11,19 @@ A local-first bridge that imports Todoist capture tasks into Markdown notes in a
 macOS/Linux:
 
 ```sh
-curl -fsSL https://example.com/todoist-to-obsidian/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/thefirebanks/todoist-to-obsidian/main/install.sh | sh
 ```
 
 Windows PowerShell:
 
 ```powershell
-irm https://example.com/todoist-to-obsidian/install.ps1 | iex
+irm https://raw.githubusercontent.com/thefirebanks/todoist-to-obsidian/main/install.ps1 | iex
 ```
 
 Python users:
 
 ```sh
-pipx install todoist-to-obsidian
+pipx install git+https://github.com/thefirebanks/todoist-to-obsidian.git
 ```
 
 ## Setup
