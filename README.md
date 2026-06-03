@@ -1,5 +1,9 @@
 # todoist-to-obsidian
 
+<p align="center">
+  <img src="assets/icon.png" alt="todoist-to-obsidian icon" width="160">
+</p>
+
 A local-first bridge that imports Todoist capture tasks into Markdown notes in an Obsidian vault.
 
 ## Install
