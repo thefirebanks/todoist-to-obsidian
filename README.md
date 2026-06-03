@@ -46,6 +46,20 @@ Preview without writing or closing tasks:
 todoist-to-obsidian run --dry-run
 ```
 
+## Raycast Capture
+
+Install Raycast's Todoist extension and use Todoist Quick Add as the capture box. Add tasks with the configured label, then let `todoist-to-obsidian` import them on the next scheduled run.
+
+Examples:
+
+```text
+remember to send launch notes #obs
+ideas: try a shorter onboarding flow #obs
+project: follow up on vendor contract #obs
+```
+
+In these examples, `ideas:` and `project:` are aliases from your config. Captures without an alias prefix go to the default note.
+
 ## Schedule
 
 Run every hour:
