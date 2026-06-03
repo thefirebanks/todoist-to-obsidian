@@ -28,11 +28,13 @@ pipx install git+https://github.com/thefirebanks/todoist-to-obsidian.git
 
 ## Setup
 
+In Todoist, create a project named `obs`. If you prefer a different project name, use that name when `todoist-to-obsidian init` asks which Todoist project to import from.
+
 ```sh
 todoist-to-obsidian init
 ```
 
-The setup command asks for your Todoist token, vault path, default note, aliases, and writes local config. The token is stored locally in the app config directory, not in the public config file.
+The setup command asks for your Todoist token, Todoist project, vault path, default note, aliases, and writes local config. The token is stored locally in the app config directory, not in the public config file.
 
 ## Run
 
@@ -48,7 +50,7 @@ todoist-to-obsidian run --dry-run
 
 ## Raycast Capture
 
-Install Raycast's Todoist extension and use Todoist Quick Add as the capture box. Add tasks with the configured label, then let `todoist-to-obsidian` import them on the next scheduled run.
+Install Raycast's Todoist extension and use Todoist Quick Add as the capture box. Add tasks to your capture project with `#obs`, then let `todoist-to-obsidian` import them on the next scheduled run.
 
 Examples:
 
@@ -59,6 +61,8 @@ project: follow up on vendor contract #obs
 ```
 
 In these examples, `ideas:` and `project:` are aliases from your config. Captures without an alias prefix go to the default note.
+
+If you configured a different Todoist project, replace `#obs` with that project selector. If you configured a Todoist label filter instead, use Todoist's label syntax, such as `@capture`.
 
 ## Schedule
 
