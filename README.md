@@ -127,8 +127,12 @@ See [examples/config.example.toml](examples/config.example.toml).
 ## Development
 
 ```sh
-python -m unittest discover -s tests
+PYTHONPATH=src python3 -m unittest discover -s tests
 ```
+
+## Agent Skill
+
+A generic Codex skill is available at [skills/todoist-to-obsidian/SKILL.md](skills/todoist-to-obsidian/SKILL.md) for agents helping users install, configure, run, and troubleshoot the CLI safely.
 
 ## License
 
