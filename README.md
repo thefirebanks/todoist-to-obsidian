@@ -137,3 +137,7 @@ A generic Codex skill is available at [skills/todoist-to-obsidian/SKILL.md](skil
 ## License
 
 MIT
+
+## Attribution
+
+This project was written with Codex and GPT-5.5 on High.
